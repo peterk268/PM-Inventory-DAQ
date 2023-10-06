@@ -7,18 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0A9FFB02ACF6AD800E4ABC4 /* DAQView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9FFAF2ACF6AD800E4ABC4 /* DAQView.swift */; };
+		D0A9FFB22ACF6B0600E4ABC4 /* DAQViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9FFB12ACF6B0600E4ABC4 /* DAQViewModel.swift */; };
+		D0A9FFB62ACF6B5700E4ABC4 /* DAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A9FFB52ACF6B5700E4ABC4 /* DAQ.swift */; };
 		D0B545AA2A1A63DF00F4B66A /* PM_InventoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545A92A1A63DF00F4B66A /* PM_InventoryApp.swift */; };
 		D0B545AC2A1A63DF00F4B66A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545AB2A1A63DF00F4B66A /* ContentView.swift */; };
 		D0B545AE2A1A63E000F4B66A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B545AD2A1A63E000F4B66A /* Assets.xcassets */; };
 		D0B545B12A1A63E000F4B66A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B545B02A1A63E000F4B66A /* Preview Assets.xcassets */; };
+		D0B545B82A1A643A00F4B66A /* InventoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545B72A1A643A00F4B66A /* InventoryView.swift */; };
+		D0B545BA2A1A648400F4B66A /* InventoryCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545B92A1A648400F4B66A /* InventoryCard.swift */; };
+		D0B545BD2A1A64C300F4B66A /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545BC2A1A64C300F4B66A /* Item.swift */; };
+		D0B545C02A1A651A00F4B66A /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D0B545BF2A1A651A00F4B66A /* RealmSwift */; };
+		D0B545C22A1A6A0300F4B66A /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545C12A1A6A0300F4B66A /* AuthManager.swift */; };
+		D0B545C42A1A6C3400F4B66A /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B545C32A1A6C3400F4B66A /* AddItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D0A9FFAF2ACF6AD800E4ABC4 /* DAQView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAQView.swift; sourceTree = "<group>"; };
+		D0A9FFB12ACF6B0600E4ABC4 /* DAQViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAQViewModel.swift; sourceTree = "<group>"; };
+		D0A9FFB52ACF6B5700E4ABC4 /* DAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAQ.swift; sourceTree = "<group>"; };
+		D0A9FFB72ACF975100E4ABC4 /* PM-Inventory-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "PM-Inventory-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D0B545A62A1A63DF00F4B66A /* PM Inventory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PM Inventory.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B545A92A1A63DF00F4B66A /* PM_InventoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PM_InventoryApp.swift; sourceTree = "<group>"; };
 		D0B545AB2A1A63DF00F4B66A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0B545AD2A1A63E000F4B66A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0B545B02A1A63E000F4B66A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D0B545B72A1A643A00F4B66A /* InventoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryView.swift; sourceTree = "<group>"; };
+		D0B545B92A1A648400F4B66A /* InventoryCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryCard.swift; sourceTree = "<group>"; };
+		D0B545BC2A1A64C300F4B66A /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		D0B545C12A1A6A0300F4B66A /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		D0B545C32A1A6C3400F4B66A /* AddItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +44,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B545C02A1A651A00F4B66A /* RealmSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D0A9FFB82AD0695200E4ABC4 /* DAQ */ = {
+			isa = PBXGroup;
+			children = (
+				D0A9FFAF2ACF6AD800E4ABC4 /* DAQView.swift */,
+				D0A9FFB12ACF6B0600E4ABC4 /* DAQViewModel.swift */,
+			);
+			path = DAQ;
+			sourceTree = "<group>";
+		};
+		D0A9FFB92AD0696000E4ABC4 /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				D0B545B72A1A643A00F4B66A /* InventoryView.swift */,
+				D0B545B92A1A648400F4B66A /* InventoryCard.swift */,
+				D0B545C32A1A6C3400F4B66A /* AddItemView.swift */,
+			);
+			path = Inventory;
+			sourceTree = "<group>";
+		};
 		D0B5459D2A1A63DF00F4B66A = {
 			isa = PBXGroup;
 			children = (
@@ -51,8 +89,13 @@
 		D0B545A82A1A63DF00F4B66A /* PM Inventory */ = {
 			isa = PBXGroup;
 			children = (
+				D0A9FFB72ACF975100E4ABC4 /* PM-Inventory-Info.plist */,
 				D0B545A92A1A63DF00F4B66A /* PM_InventoryApp.swift */,
 				D0B545AB2A1A63DF00F4B66A /* ContentView.swift */,
+				D0A9FFB82AD0695200E4ABC4 /* DAQ */,
+				D0A9FFB92AD0696000E4ABC4 /* Inventory */,
+				D0B545BB2A1A64B100F4B66A /* DataModels */,
+				D0B545C12A1A6A0300F4B66A /* AuthManager.swift */,
 				D0B545AD2A1A63E000F4B66A /* Assets.xcassets */,
 				D0B545AF2A1A63E000F4B66A /* Preview Content */,
 			);
@@ -65,6 +108,15 @@
 				D0B545B02A1A63E000F4B66A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D0B545BB2A1A64B100F4B66A /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				D0B545BC2A1A64C300F4B66A /* Item.swift */,
+				D0A9FFB52ACF6B5700E4ABC4 /* DAQ.swift */,
+			);
+			path = DataModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,9 @@
 			dependencies = (
 			);
 			name = "PM Inventory";
+			packageProductDependencies = (
+				D0B545BF2A1A651A00F4B66A /* RealmSwift */,
+			);
 			productName = "PM Inventory";
 			productReference = D0B545A62A1A63DF00F4B66A /* PM Inventory.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +166,9 @@
 				Base,
 			);
 			mainGroup = D0B5459D2A1A63DF00F4B66A;
+			packageReferences = (
+				D0B545BE2A1A651A00F4B66A /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = D0B545A72A1A63DF00F4B66A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +195,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0B545BD2A1A64C300F4B66A /* Item.swift in Sources */,
+				D0A9FFB02ACF6AD800E4ABC4 /* DAQView.swift in Sources */,
+				D0B545C22A1A6A0300F4B66A /* AuthManager.swift in Sources */,
+				D0B545C42A1A6C3400F4B66A /* AddItemView.swift in Sources */,
+				D0A9FFB62ACF6B5700E4ABC4 /* DAQ.swift in Sources */,
+				D0B545B82A1A643A00F4B66A /* InventoryView.swift in Sources */,
 				D0B545AC2A1A63DF00F4B66A /* ContentView.swift in Sources */,
+				D0B545BA2A1A648400F4B66A /* InventoryCard.swift in Sources */,
 				D0B545AA2A1A63DF00F4B66A /* PM_InventoryApp.swift in Sources */,
+				D0A9FFB22ACF6B0600E4ABC4 /* DAQViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +336,10 @@
 				DEVELOPMENT_TEAM = 8SZ2F6LV2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PM-Inventory-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to connect to PM-DAQ";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App uses Bluetooth to connect to PM-DAQ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +369,10 @@
 				DEVELOPMENT_TEAM = 8SZ2F6LV2X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "PM-Inventory-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "App uses Bluetooth to connect to PM-DAQ";
+				INFOPLIST_KEY_NSBluetoothPeripheralUsageDescription = "App uses Bluetooth to connect to PM-DAQ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +413,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D0B545BE2A1A651A00F4B66A /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D0B545BF2A1A651A00F4B66A /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D0B545BE2A1A651A00F4B66A /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D0B5459E2A1A63DF00F4B66A /* Project object */;
 }
